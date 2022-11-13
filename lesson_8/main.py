@@ -1,5 +1,5 @@
 import random as r
-import turtle
+#import turtle
 #print(r.randint(0,100))
 #from random import randint #only randint for random
 # lst = [0, 1, 2, 3, 4, 5, 6, 7]
@@ -7,7 +7,7 @@ import turtle
 # r.shuffle(lst) #shuffle=перемешать содержимое
 # print(lst)
 import turtle as t
-screen=turtle.Screen()
+screen=t.Screen()
 t = t.Turtle()
 # t.forward(500)
 t.pensize(2)
