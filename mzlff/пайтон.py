@@ -28,19 +28,19 @@
 # cont = f.readlines()
 # v = len(cont)
 # for i in range(v):
-#     print((f"{i+1}"), cont[i].strip())
-
-f = open("нокия2004.txt", "r",encoding="utf-8")
-text = f.readlines()
-f.close()
-count = 0
-print(text)
-while text != []:
-    el = text[:3]
-    count += 1
-    f = open(str(count) + ".txt", "w", encoding="utf-8")
-    for i in el:
-        f.write(i)
-    f.close()
-    print(text[:3])
-    del text[:3]
+# print((f"{i+1}"), cont[i].strip())
+#
+# f = open("нокия2004.txt", "r",encoding="utf-8")
+# text = f.readlines()
+# f.close()
+# count = 0
+# print(text)
+# while text != []:
+#     el = text[:3]
+#     count += 1
+#     f = open(str(count) + ".txt", "w", encoding="utf-8")
+#     for i in el:
+#         f.write(i)
+#     f.close()
+#     print(text[:3])
+#     del text[:3]
